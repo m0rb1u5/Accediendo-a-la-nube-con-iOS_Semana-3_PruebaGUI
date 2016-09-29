@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10102" systemVersion="15G31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10080"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10030"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Accediendo_a_la_nube_con_iOS_Semana_3_PruebaGUI_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="aVL-xt-auA">
+                            <items>
+                                <button width="78" alignment="left" title="Saludar" id="xbm-Gz-ZbG"/>
+                                <label alignment="left" text="Hola Mundo!!!" id="O7o-LB-I4O"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="YjN-U5-bg2"/>
+                        <separator alignment="left" id="O9j-Nb-bRs"/>
+                        <switch width="1" alignment="left" value="YES" title="Modo avión" id="iNC-tq-og5"/>
+                        <label alignment="left" text="Label" id="eeu-6x-lto"/>
+                        <label alignment="left" text="Label" id="a80-Du-pRY"/>
+                    </items>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="305" y="389"/>
         </scene>
     </scenes>
 </document>
