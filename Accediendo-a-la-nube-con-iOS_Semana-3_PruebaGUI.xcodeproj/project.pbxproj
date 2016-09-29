@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940BDE331D9D47690052B3EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940BDE321D9D47690052B3EC /* AppDelegate.swift */; };
+		940BDE351D9D47690052B3EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940BDE341D9D47690052B3EC /* ViewController.swift */; };
+		940BDE381D9D47690052B3EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940BDE361D9D47690052B3EC /* Main.storyboard */; };
+		940BDE3A1D9D47690052B3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940BDE391D9D47690052B3EC /* Assets.xcassets */; };
+		940BDE3D1D9D47690052B3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940BDE3B1D9D47690052B3EC /* LaunchScreen.storyboard */; };
+		940BDE421D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 940BDE411D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App.app */; };
+		940BDE481D9D476A0052B3EC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940BDE461D9D476A0052B3EC /* Interface.storyboard */; };
+		940BDE4A1D9D476A0052B3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940BDE491D9D476A0052B3EC /* Assets.xcassets */; };
+		940BDE511D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 940BDE501D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		940BDE561D9D476A0052B3EC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940BDE551D9D476A0052B3EC /* InterfaceController.swift */; };
+		940BDE581D9D476A0052B3EC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940BDE571D9D476A0052B3EC /* ExtensionDelegate.swift */; };
+		940BDE5A1D9D476A0052B3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940BDE591D9D476A0052B3EC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		940BDE431D9D476A0052B3EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940BDE271D9D47680052B3EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940BDE401D9D476A0052B3EC;
+			remoteInfo = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App";
+		};
+		940BDE521D9D476A0052B3EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940BDE271D9D47680052B3EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940BDE4F1D9D476A0052B3EC;
+			remoteInfo = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		940BDE611D9D476A0052B3EC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				940BDE511D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940BDE651D9D476A0052B3EC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				940BDE421D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		940BDE2F1D9D47690052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940BDE321D9D47690052B3EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		940BDE341D9D47690052B3EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		940BDE371D9D47690052B3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		940BDE391D9D47690052B3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940BDE3C1D9D47690052B3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		940BDE3E1D9D47690052B3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940BDE411D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940BDE471D9D476A0052B3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		940BDE491D9D476A0052B3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940BDE4B1D9D476A0052B3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940BDE501D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940BDE551D9D476A0052B3EC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		940BDE571D9D476A0052B3EC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		940BDE591D9D476A0052B3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940BDE5B1D9D476A0052B3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940BDE2C1D9D47680052B3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940BDE4D1D9D476A0052B3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940BDE261D9D47680052B3EC = {
+			isa = PBXGroup;
+			children = (
+				940BDE311D9D47690052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI */,
+				940BDE451D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App */,
+				940BDE541D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension */,
+				940BDE301D9D47690052B3EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		940BDE301D9D47690052B3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940BDE2F1D9D47690052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI.app */,
+				940BDE411D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App.app */,
+				940BDE501D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940BDE311D9D47690052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI */ = {
+			isa = PBXGroup;
+			children = (
+				940BDE321D9D47690052B3EC /* AppDelegate.swift */,
+				940BDE341D9D47690052B3EC /* ViewController.swift */,
+				940BDE361D9D47690052B3EC /* Main.storyboard */,
+				940BDE391D9D47690052B3EC /* Assets.xcassets */,
+				940BDE3B1D9D47690052B3EC /* LaunchScreen.storyboard */,
+				940BDE3E1D9D47690052B3EC /* Info.plist */,
+			);
+			path = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI";
+			sourceTree = "<group>";
+		};
+		940BDE451D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				940BDE461D9D476A0052B3EC /* Interface.storyboard */,
+				940BDE491D9D476A0052B3EC /* Assets.xcassets */,
+				940BDE4B1D9D476A0052B3EC /* Info.plist */,
+			);
+			path = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App";
+			sourceTree = "<group>";
+		};
+		940BDE541D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				940BDE551D9D476A0052B3EC /* InterfaceController.swift */,
+				940BDE571D9D476A0052B3EC /* ExtensionDelegate.swift */,
+				940BDE591D9D476A0052B3EC /* Assets.xcassets */,
+				940BDE5B1D9D476A0052B3EC /* Info.plist */,
+			);
+			path = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940BDE2E1D9D47680052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940BDE661D9D476A0052B3EC /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI" */;
+			buildPhases = (
+				940BDE2B1D9D47680052B3EC /* Sources */,
+				940BDE2C1D9D47680052B3EC /* Frameworks */,
+				940BDE2D1D9D47680052B3EC /* Resources */,
+				940BDE651D9D476A0052B3EC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940BDE441D9D476A0052B3EC /* PBXTargetDependency */,
+			);
+			name = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI";
+			productName = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI";
+			productReference = 940BDE2F1D9D47690052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		940BDE401D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940BDE621D9D476A0052B3EC /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App" */;
+			buildPhases = (
+				940BDE3F1D9D476A0052B3EC /* Resources */,
+				940BDE611D9D476A0052B3EC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940BDE531D9D476A0052B3EC /* PBXTargetDependency */,
+			);
+			name = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App";
+			productName = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App";
+			productReference = 940BDE411D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		940BDE4F1D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940BDE5E1D9D476A0052B3EC /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension" */;
+			buildPhases = (
+				940BDE4C1D9D476A0052B3EC /* Sources */,
+				940BDE4D1D9D476A0052B3EC /* Frameworks */,
+				940BDE4E1D9D476A0052B3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension";
+			productName = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension";
+			productReference = 940BDE501D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940BDE271D9D47680052B3EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Juan Carlos Carbajal Ipenza";
+				TargetAttributes = {
+					940BDE2E1D9D47680052B3EC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 85667CV2UC;
+					};
+					940BDE401D9D476A0052B3EC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 85667CV2UC;
+					};
+					940BDE4F1D9D476A0052B3EC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 85667CV2UC;
+					};
+				};
+			};
+			buildConfigurationList = 940BDE2A1D9D47680052B3EC /* Build configuration list for PBXProject "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 940BDE261D9D47680052B3EC;
+			productRefGroup = 940BDE301D9D47690052B3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				940BDE2E1D9D47680052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI */,
+				940BDE401D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App */,
+				940BDE4F1D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940BDE2D1D9D47680052B3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940BDE3D1D9D47690052B3EC /* LaunchScreen.storyboard in Resources */,
+				940BDE3A1D9D47690052B3EC /* Assets.xcassets in Resources */,
+				940BDE381D9D47690052B3EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940BDE3F1D9D476A0052B3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940BDE4A1D9D476A0052B3EC /* Assets.xcassets in Resources */,
+				940BDE481D9D476A0052B3EC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940BDE4E1D9D476A0052B3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940BDE5A1D9D476A0052B3EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940BDE2B1D9D47680052B3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940BDE351D9D47690052B3EC /* ViewController.swift in Sources */,
+				940BDE331D9D47690052B3EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940BDE4C1D9D476A0052B3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940BDE581D9D476A0052B3EC /* ExtensionDelegate.swift in Sources */,
+				940BDE561D9D476A0052B3EC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		940BDE441D9D476A0052B3EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940BDE401D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App */;
+			targetProxy = 940BDE431D9D476A0052B3EC /* PBXContainerItemProxy */;
+		};
+		940BDE531D9D476A0052B3EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940BDE4F1D9D476A0052B3EC /* Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension */;
+			targetProxy = 940BDE521D9D476A0052B3EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		940BDE361D9D47690052B3EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940BDE371D9D47690052B3EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		940BDE3B1D9D47690052B3EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940BDE3C1D9D47690052B3EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		940BDE461D9D476A0052B3EC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940BDE471D9D476A0052B3EC /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		940BDE5C1D9D476A0052B3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		940BDE5D1D9D476A0052B3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		940BDE5F1D9D476A0052B3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-3-PruebaGUI.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		940BDE601D9D476A0052B3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-3-PruebaGUI.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		940BDE631D9D476A0052B3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Accediendo_a_la_nube_con_iOS_Semana_3_PruebaGUI_WatchKit_Extension;
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-3-PruebaGUI.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		940BDE641D9D476A0052B3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Accediendo_a_la_nube_con_iOS_Semana_3_PruebaGUI_WatchKit_Extension;
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-3-PruebaGUI.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		940BDE671D9D476A0052B3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-3-PruebaGUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		940BDE681D9D476A0052B3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-3-PruebaGUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940BDE2A1D9D47680052B3EC /* Build configuration list for PBXProject "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940BDE5C1D9D476A0052B3EC /* Debug */,
+				940BDE5D1D9D476A0052B3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940BDE5E1D9D476A0052B3EC /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940BDE5F1D9D476A0052B3EC /* Debug */,
+				940BDE601D9D476A0052B3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		940BDE621D9D476A0052B3EC /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940BDE631D9D476A0052B3EC /* Debug */,
+				940BDE641D9D476A0052B3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		940BDE661D9D476A0052B3EC /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-3_PruebaGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940BDE671D9D476A0052B3EC /* Debug */,
+				940BDE681D9D476A0052B3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940BDE271D9D47680052B3EC /* Project object */;
+}
